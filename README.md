@@ -10,6 +10,11 @@ This allows for better email formatting and customization.
 * Optionally records status information to a local status file. Nagios
 compatible script `check_cronhelper` is included.
 
+* Jitter mode to avoid too many jobs starting at once.
+
+* Locking to prevent jobs from piling up.
+
+* Monitoring status file to track job performance and exit codes.
 
 ## Usage
 
